@@ -18,7 +18,8 @@ Python toolkit for measuring **contact angles in 3D porous media** from **segmen
 ## Demo
 - An example 3D TIFF image is included with dimensions **300 x 300 x 250** Run `Main.py` with the correct TIFF filename and the ***correct phase label index***; the output is a text file containing contact‑angle measurements. To generate the histogram distribution, run `plotting.py`.<br>
 ![Screenshot](MW_fw0_CAHistogram.png)
-- Then run `Main_SpatialInterpolation.py` to produce the spatial wettability information and a 3D TIFF of the pore space in which voxel values represent the contact angle of the pore surfaces.
+- Then run `Main_SpatialInterpolation.py` to produce the spatial wettability information and a 3D TIFF of the pore space in which voxel values represent the contact angle of the pore surfaces.<br>
+![Screenshot](Spatially_Distributed_Contact_Angle_Slices.png)
 ## Paper
 If you use this work please cite:<br>  F. Aljaberi, H. Belhaj, S. Foroughi, M. Al-Kobaisi, M. Blunt, Spatially Distributed Wettability Characterization in Porous Media, (2025). https://doi.org/10.48550/arXiv.2507.01617.
  
