@@ -11,8 +11,8 @@ Output includes:
 from SpatialInterpolation import ContactAngleInterpolator
 
 # Configuration
-image_path = 'MW_fw02SV.tif'  # Segmented image
-ca_data_path = 'MW_fw50-SV_CAdata.txt'  # Contact angle measurements from Main.py
+image_path = 'MW_fw0.tif'  # Segmented image
+ca_data_path = 'MW_fw0_CAdata.txt'  # Contact angle measurements from Main.py
 primary_drainage = True  # True, if this image was taken after the primary drainage process and before water injection (fw=0).
 
 solid_label = 2
@@ -31,4 +31,5 @@ interpolator.interpolate_angles(
     max_distance=20
 )
 interpolator.visualize_results(save_path='contact_angle_analysis.png')
+
 interpolator.save_results('contact_angle_distribution.tif', save_metadata=True)
